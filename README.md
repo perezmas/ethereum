@@ -4,11 +4,12 @@ A Web 3.0 (Web3) app that utilizes blockchain technology and Metamask to send an
 # Tools Used
 - Java
 - React
-- Tailwind CSS
-- Vite
+- Solidity
 - Metamask
 - GIPHY API
 - Alchemy Blockchain API
+- Tailwind CSS
+- Vite
 
 # What I Learned
 * How to incorporate developer APIs into my projects
