@@ -50,7 +50,7 @@ body {
 
 /* white glassmorphism */
 .white-glassmorphism {
-  background: #9b9bff69;
+  background: #f0f0f097;
   border-radius: 16px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
