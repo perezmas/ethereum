@@ -18,7 +18,7 @@ const Services = () => {
         <div className="flex flex-col md:flex-row w-full justify-center items-center gradient-bg-services">
             <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 my-12 mx-4">
                 <div className="flex flex-1 flex-col items-start justify-start">
-                    <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient">Services that we
+                    <h1 className="text-white font-bold text-3xl sm:text-5xl py-2">Services that we
                     <br />
                     continue to improve
                     </h1>
