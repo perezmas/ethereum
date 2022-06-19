@@ -2,7 +2,7 @@
 A Web 3.0 (Web3) app that utilizes blockchain technology and Metamask to send and receive Ethereum cryptocurrency to other accounts.
 
 # Tools Used
-- Java
+- JavaScript
 - React
 - Solidity
 - Metamask
