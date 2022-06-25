@@ -38,10 +38,10 @@ const Welcome = () => {
     return (
         <div className="flex w-full justify-center items-center">
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
-                <div className="flex flex-1 justify-start flex-col mf:mr-10" id="#welcome">
-                    <h1 className="text-3xl sm:text-5xl text-white py-1">
+                <div className="flex flex-1 justify-start flex-col mf:mr-10">
+                    <a href="#exchange" className="text-3xl sm:text-5xl text-white py-1" id="welcome">
                         Send Crypto <br /> across the world
-                    </h1>
+                    </a>
                     <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
                         Exchange crpytocurrencies and send them along with a GIF.
                     </p>
@@ -95,7 +95,8 @@ const Welcome = () => {
                         </div>
                     </div>
 
-                    <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
+                    <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism" id="exchange">
+                        <a href="#exchange" className="text-white font-semibold">Exchange Ethereum (ETH)</a>
                         <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange}/>
                         <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange}/>
                         <Input placeholder="Keyword (GIF)" name="keyword" type="text" handleChange={handleChange}/>

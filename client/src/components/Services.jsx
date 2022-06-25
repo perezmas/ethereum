@@ -3,7 +3,7 @@ import { BiSearchAlt } from 'react-icons/bi';
 import { RiHeart2Fill } from 'react-icons/ri';
 
 const ServiceCard = ({color, title, icon, subtitle}) => (
-    <div className="flex flex-row justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl">
+    <div className="flex flex-row justify-start items-center blue-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl">
         <div className={`w-10 h-10 rounded-full flex justify-center items-center ${color}`}>
             {icon}
         </div>
@@ -17,11 +17,11 @@ const Services = () => {
     return (
         <div className="flex flex-col md:flex-row w-full justify-center items-center gradient-bg-services">
             <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 my-12 mx-4">
-                <div className="flex flex-1 flex-col items-start justify-start">
-                    <h1 className="text-white font-bold text-3xl sm:text-5xl py-2">Services that we
+                <div className="flex flex-1 flex-col items-start justify-start" id="services">
+                    <a href="#services" className="text-white font-bold text-3xl sm:text-5xl py-2">Services that we
                     <br />
                     continue to improve
-                    </h1>
+                    </a>
                 </div>
             </div>
             <div className="flex-1 flex flex-col justify-start items-center">
