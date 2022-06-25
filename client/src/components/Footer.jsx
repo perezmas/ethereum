@@ -9,10 +9,10 @@ const Footer = () => {
                     <img src={logo} alt="logo" className="w-32"/>
                 </div>
                 <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-                    <p className="text-black text-base text-center mx-2 cursor-pointer">Welcome</p>
-                    <p className="text-black text-base text-center mx-2 cursor-pointer">Exchange</p>
-                    <p className="text-black text-base text-center mx-2 cursor-pointer">Services</p>
-                    <p className="text-black text-base text-center mx-2 cursor-pointer">Transactions</p>
+                    <a href="#welcome" className="text-black text-base text-center mx-2 cursor-pointer">Welcome</a>
+                    <a href="#exchange" className="text-black text-base text-center mx-2 cursor-pointer">Exchange</a>
+                    <a href="#services" className="text-black text-base text-center mx-2 cursor-pointer">Services</a>
+                    <a href="#transactions" className="text-black text-base text-center mx-2 cursor-pointer">Transactions</a>
                 </div>
             </div>
                 <div className="flex justify-center items-center flex-col mt-5">
